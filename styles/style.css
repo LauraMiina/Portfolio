@@ -80,11 +80,10 @@ img:hover {
   }
   
   hr {
-    border-top: .5px;
-    stroke: black;
+    border-top: 0.5px solid black;
     margin-top: 2em;
     margin-bottom: 2em;
-  }
+ }
   
   .card {
     border: 1px solid #000;
@@ -129,4 +128,6 @@ img:hover {
     color: #191970;
     font-weight: bold;
   }
+
+
   
