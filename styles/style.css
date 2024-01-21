@@ -130,4 +130,19 @@ img:hover {
   }
 
 
+  .card-content span h4 {
+    margin-top: 0;
+    margin-bottom: 0.25em; /* Adjust the bottom margin for h4 */
+    color: #191970;
+  }
+  
+  .card-content p {
+    margin-top: 0; /* Adjust the top margin for paragraphs */
+    margin-bottom: 1em; /* Adjust the bottom margin for paragraphs */
+  }
+  
+  .card-content br {
+    display: none; /* Hide line breaks */
+  }
+  
   

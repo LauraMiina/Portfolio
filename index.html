@@ -1,11 +1,30 @@
 <!doctype html>
-<html>
-  <head>
-    <title>Work and projects</title>
-    <link rel="stylesheet" href="styles/style.css">
-  </head>
 
-  <body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work and projects</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 700px; /* Set your desired maximum width */
+      width: 100%;
+      padding: 20px; /* Add padding as needed */
+      margin-top: 0px; /* Adjust the top margin to move the header closer to the upper edge */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
     <section class="hero">
       <div class="hero-body">
           <div class= "column is-one-fifth">
@@ -13,29 +32,39 @@
               <h1 class="title">Kukkonen</h1>
           </div>
       <div class="column is-two-fifths">
-        <p>Hi! I'm a journalist from Finland. I'm currently getting my master's degree in data journalism at Columbia University in New York.</p>
-        <p>Before starting my data journalism journey I have worked as a news and financial journalist in Helsinki for almost 10 years. After graduating in August 2024, I'm returning back to my home newsroom at Helsingin Sanomat, the biggest newspaper in Finland.</p>
-        <p>You can contact me at <span class="email">laura.kukkonen at columbia.edu</span>.</p>
-
+        <p>Hi! I'm a journalist from Finland.
+          I'm currently getting my master's degree in data
+          journalism at Columbia University in New York.
+          <br>
+          <br>
+        Before starting my data journalism journey I have worked as a news and financial journalist in Helsinki for almost 10 years. After graduating in August 2024, I'm returning back to my home newsroom at Helsingin Sanomat, the biggest newspaper in Finland.
         <br>
+        <br>
+        You can contact me at <span class="email">laura.kukkonen at columbia.edu</span>.
+      </p>
+      <br>
     <h1 class="title">Projects</h1>
-    <br></br>
+    <div class="card-content">        
+      <div class="content">
     <a href="https://lauramiina.github.io/Map-of-Diversity-in-the-District-Courts/"
     target="_blank">
-      <span>Map showing the diversity of the District Courts</span>
+      <span><h4>Mapping the diversity of the District Courts</h4></span>
 </a>
 <p>This project allowed me to hone my skills in scraping, Python, pandas, data analysis and data visualisation.
-  It was made as part of my studies at Columbia Journalism School.
+  It was made as part of my studies at Columbia Journalism School fall 2023.
 </p>
 <br></br>
     <a href="https://alasin-delivery.datadesk.hs.fi/6f17513e-d56f-4dda-87f2-f3944e5d0330/index.html"
     target="_blank">
-  <span>Interactive data story about the changes in purchasing power and the value of money in Finland</span>
+  <span><h4>Interactive data story about the changes in purchasing power and the value of money in Finland</h4></span>
   </a>
   <p>Inflation started to speed up during 2022 and 2023. We wanted to find out what it actually
     meant for Finnish people in comparison to price changes in the last 50 years. The result is a data-driven, interactive article that changes
-    when the readers enter different salaries to our calculator. The infrographics won an award in The European Newspaper Award in 2023.
+    when the readers enter different salaries to our calculator. The infrographics for this piece won an award in The European Newspaper Awards in 2023.
+  </div>
+  </div>
   </p>
+
   </div>
 </section>
 </body>
