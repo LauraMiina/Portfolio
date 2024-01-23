@@ -132,17 +132,17 @@ img:hover {
 
   .card-content span h4 {
     margin-top: 0;
-    margin-bottom: 0.25em; /* Adjust the bottom margin for h4 */
+    margin-bottom: 0.25em; 
     color: #191970;
   }
   
   .card-content p {
-    margin-top: 0; /* Adjust the top margin for paragraphs */
-    margin-bottom: 1em; /* Adjust the bottom margin for paragraphs */
+    margin-top: 0;
+    margin-bottom: 1em;
   }
   
   .card-content br {
-    display: none; /* Hide line breaks */
+    display: none;
   }
   
   
