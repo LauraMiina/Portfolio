@@ -1,7 +1,17 @@
 
-img:hover {
-    opacity: .5;
-  }
+
+  .header-image {
+    width: 160%;
+    display: block;
+    margin: 0 auto 0 -30%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    object-fit: cover;
+    opacity: 0.85;
+    }
   
   .hero a.reverse {
     background-color: #FFF;
